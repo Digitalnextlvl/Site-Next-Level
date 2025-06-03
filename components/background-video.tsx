@@ -26,7 +26,7 @@ export default function BackgroundVideo() {
         playsInline
         className="absolute w-full h-full object-cover"
       >
-        <source src="/background.mp4" type="video/mp4" />
+        <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Fundo%20site%20Next%20Level-a18lMR1ImHLearcensmslrvzpnpiFr.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay para melhorar a legibilidade do texto */}
