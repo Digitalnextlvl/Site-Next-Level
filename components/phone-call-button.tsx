@@ -54,13 +54,13 @@ export default function PhoneCallButton() {
         {/* Phone Button */}
         <button
           onClick={handlePhoneClick}
-          className="bg-blue-600 hover:bg-blue-700 w-12 h-12 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group relative overflow-hidden transform hover:scale-110"
+          className="bg-blue-600 hover:bg-blue-700 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group relative overflow-hidden transform hover:scale-110"
           aria-label="Ligar para nosso agente IA"
         >
           {/* Glow effect */}
           <div className="absolute inset-0 rounded-full bg-blue-400 opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300"></div>
 
-          <Phone className="w-6 h-6 md:w-8 md:h-8 text-white group-hover:scale-110 transition-transform duration-300 relative z-10" />
+          <Phone className="w-8 h-8 text-white group-hover:scale-110 transition-transform duration-300 relative z-10" />
 
           {/* Additional pulse effect */}
           <span className="absolute -inset-1 rounded-full border-4 border-blue-600 animate-ping opacity-75"></span>
