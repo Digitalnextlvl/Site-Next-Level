@@ -24,7 +24,7 @@ export default function PhoneCallButton() {
 
   return (
     <div
-      className={`fixed bottom-4 left-4 md:bottom-6 md:left-6 z-50 transition-all duration-1000 ease-out ${
+      className={`fixed bottom-6 left-6 z-50 transition-all duration-1000 ease-out ${
         isVisible
           ? "translate-x-0 translate-y-0 opacity-100 scale-100"
           : "-translate-x-20 translate-y-10 opacity-0 scale-75"
@@ -54,13 +54,13 @@ export default function PhoneCallButton() {
         {/* Phone Button */}
         <button
           onClick={handlePhoneClick}
-          className="bg-blue-600 hover:bg-blue-700 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group relative overflow-hidden transform hover:scale-110"
+          className="bg-blue-600 hover:bg-blue-700 w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 group relative overflow-hidden transform hover:scale-110"
           aria-label="Ligar para nosso agente IA"
         >
           {/* Glow effect */}
           <div className="absolute inset-0 rounded-full bg-blue-400 opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300"></div>
 
-          <Phone className="w-8 h-8 text-white group-hover:scale-110 transition-transform duration-300 relative z-10" />
+          <Phone className="w-6 h-6 text-white group-hover:scale-110 transition-transform duration-300 relative z-10" />
 
           {/* Additional pulse effect */}
           <span className="absolute -inset-1 rounded-full border-4 border-blue-600 animate-ping opacity-75"></span>

@@ -7,7 +7,7 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: <Mail size={18} />, label: "Email", href: "mailto:contato@nextlevel.com.br" },
-    { icon: <Instagram size={18} />, label: "Instagram", href: "https://instagram.com/nextlevel" },
+    { icon: <Instagram size={18} />, label: "Instagram", href: "https://www.instagram.com/digitalnextlvl/" },
     { icon: <Smartphone size={18} />, label: "TikTok", href: "https://tiktok.com/@nextlevel" },
   ]
 
@@ -91,6 +91,9 @@ export default function Footer() {
                 <span className="block">Guarulhos, SP</span>
               </li>
               <li className="text-gray-400">
+                <span className="block">CNPJ: 57.923.761/0001-32</span>
+              </li>
+              <li className="text-gray-400">
                 <a
                   href="mailto:contato@nextlevel.com.br"
                   className="hover:text-white transition-colors flex items-center gap-2"
@@ -99,8 +102,8 @@ export default function Footer() {
                 </a>
               </li>
               <li className="text-gray-400">
-                <a href="tel:+5511971483647" className="hover:text-white transition-colors flex items-center gap-2">
-                  <Phone size={14} /> +55 (11) 97148-3647
+                <a href="tel:+5511997854602" className="hover:text-white transition-colors flex items-center gap-2">
+                  <Phone size={14} /> +55 (11) 99785-4602
                 </a>
               </li>
             </ul>
