@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     const { messages } = await req.json()
 
     const result = await streamText({
-      model: openai("gpt-4o-mini"),
+      model: openai("gpt-3.5-turbo"),
       system: `Você é um assistente virtual da Next Level, uma empresa especializada em desenvolvimento de soluções tecnológicas com foco em inteligência artificial.
 
 INFORMAÇÕES DA EMPRESA:

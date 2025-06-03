@@ -25,9 +25,8 @@ export default function BackgroundVideo() {
         muted
         playsInline
         className="absolute w-full h-full object-cover"
-        poster="/placeholder-k7lc0.png"
       >
-        <source src="/background-video.mp4" type="video/mp4" />
+        <source src="/background.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay para melhorar a legibilidade do texto */}
