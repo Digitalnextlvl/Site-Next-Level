@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon-next-level.png",
   },
+    generator: 'v0.dev'
 }
 
 export default function RootLayout({
