@@ -4,6 +4,8 @@ import { Instagram, Mail, Phone, Smartphone } from "lucide-react"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
+  const whatsappLink =
+    "https://api.whatsapp.com/send/?phone=5511997854602&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+servi%C3%A7os+da+Next+Level.&type=phone_number&app_absent=0"
 
   const socialLinks = [
     { icon: <Mail size={18} />, label: "Email", href: "mailto:contato@nextlevel.com.br" },
@@ -102,7 +104,7 @@ export default function Footer() {
                 </a>
               </li>
               <li className="text-gray-400">
-                <a href="tel:+5511997854602" className="hover:text-white transition-colors flex items-center gap-2">
+                <a href={whatsappLink} className="hover:text-white transition-colors flex items-center gap-2">
                   <Phone size={14} /> +55 (11) 99785-4602
                 </a>
               </li>

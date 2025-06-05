@@ -6,19 +6,14 @@ import { motion } from "framer-motion"
 
 export default function HeroSection() {
   const whatsappLink =
-    "https://api.whatsapp.com/send/?phone=5511971483647&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+servi%C3%A7os+da+Next+Level.&type=phone_number&app_absent=0"
+    "https://api.whatsapp.com/send/?phone=5511997854602&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+servi%C3%A7os+da+Next+Level.&type=phone_number&app_absent=0"
 
   const handleButtonClick = () => {
     window.open(whatsappLink, "_blank")
   }
 
   const handleLearnMoreClick = () => {
-    const servicesSection = document.getElementById("servicos")
-    if (servicesSection) {
-      const yOffset = -80
-      const y = servicesSection.getBoundingClientRect().top + window.pageYOffset + yOffset
-      window.scrollTo({ top: y, behavior: "smooth" })
-    }
+    window.open(whatsappLink, "_blank")
   }
 
   const containerVariants = {
