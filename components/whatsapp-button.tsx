@@ -4,8 +4,7 @@ import { useState, useEffect } from "react"
 
 export default function WhatsAppButton() {
   const [isVisible, setIsVisible] = useState(false)
-  const whatsappLink =
-    "https://api.whatsapp.com/send/?phone=5511971483647&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+os+servi%C3%A7os+da+Next+Level.&type=phone_number&app_absent=0"
+  const whatsappLink = "https://api.whatsapp.com/send/?phone=5511997854602"
 
   useEffect(() => {
     // Mostrar o botão após 3 segundos
